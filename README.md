@@ -28,13 +28,15 @@ I've added these **features** in accordance with Assignment 1:
 * new **undo button** as an enhancement to the formerly backspace button: when there is no last digit to be deleted, the user can delete the last operation or operand from the program stack.
 
 **Extra Credit:**
-* enhanced **error handling**: now displaying an error message instead of a Zero-Number, when an error occured during run of the program (e.g. division by zero). It's a great enhancement of user experience, especially in combination with the new **undo feature** (see above).
+* enhanced **error handling**: now displaying an error message instead of a Zero-Number, when an error occured during run of the program (e.g. division by zero). 
+* It's a great enhancement of user experience, especially in combination with the new **undo feature** (see above).
 
 **Additional features on my own:**
 
 * new **logo images** for app.
 * new **golden background image** for the main calculator view.
 * new **1/x button** delivers functionality to calculate reversal numbers.
+* enhanced **error handling** by displaying a smiley in the history label, when an operand was missed by the last operation (instead of the formerly "0" in this situation).
 
 
 ## Features for Assignment 1 (RPN-Calculator)

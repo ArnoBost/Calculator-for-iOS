@@ -20,6 +20,56 @@
      id="defs4">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient3871">
+      <stop
+         style="stop-color:#ded386;stop-opacity:1"
+         offset="0"
+         id="stop3873" />
+      <stop
+         style="stop-color:#fefed5;stop-opacity:1"
+         offset="1"
+         id="stop3875" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3886">
+      <stop
+         id="stop3888"
+         offset="0"
+         style="stop-color:#1a1a1a;stop-opacity:1" />
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1"
+         offset="0.24200311"
+         id="stop3890" />
+      <stop
+         id="stop3892"
+         offset="0.3832573"
+         style="stop-color:#808080;stop-opacity:1" />
+      <stop
+         style="stop-color:#4d4d4d;stop-opacity:1"
+         offset="0.7489354"
+         id="stop3894" />
+      <stop
+         id="stop3896"
+         offset="1"
+         style="stop-color:#1a1a1a;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3860">
+      <stop
+         id="stop3870"
+         offset="0"
+         style="stop-color:#000000;stop-opacity:1;" />
+      <stop
+         id="stop3868"
+         offset="0.0931677"
+         style="stop-color:#6e6e6e;stop-opacity:1;" />
+      <stop
+         style="stop-color:#f2f2f2;stop-opacity:1"
+         offset="1"
+         id="stop3864" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient3783">
       <stop
          style="stop-color:#ffffff;stop-opacity:1;"
@@ -182,6 +232,291 @@
        y1="22.274221"
        x2="55.145981"
        y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient3811"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient3819"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient3834"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3432"
+       id="linearGradient3438"
+       x1="194.42485"
+       y1="230.71745"
+       x2="194.42485"
+       y2="694.00708"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(1,83)" />
+    <linearGradient
+       id="linearGradient3432">
+      <stop
+         style="stop-color:#c2b66d;stop-opacity:1;"
+         offset="0"
+         id="stop3434" />
+      <stop
+         id="stop3440"
+         offset="0.39751554"
+         style="stop-color:#ffffbf;stop-opacity:1;" />
+      <stop
+         style="stop-color:#797961;stop-opacity:1;"
+         offset="0.44990548"
+         id="stop3442" />
+      <stop
+         id="stop3444"
+         offset="0.54899085"
+         style="stop-color:#c2b66d;stop-opacity:1;" />
+      <stop
+         style="stop-color:#ffffbf;stop-opacity:1;"
+         offset="1"
+         id="stop3436" />
+    </linearGradient>
+    <clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath3908">
+      <rect
+         style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="rect3910"
+         width="320"
+         height="480"
+         x="36.95528"
+         y="304.47772"
+         rx="6.6583853"
+         ry="6.6583853" />
+    </clipPath>
+    <linearGradient
+       y2="694.00708"
+       x2="194.42485"
+       y1="230.71745"
+       x1="194.42485"
+       gradientTransform="translate(1,83)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient3910"
+       xlink:href="#linearGradient3432"
+       inkscape:collect="always" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient4049"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3432"
+       id="linearGradient4059"
+       x1="400.99939"
+       y1="25.000505"
+       x2="400.99939"
+       y2="103.65441"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient4073"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3432"
+       id="linearGradient4083"
+       x1="404.82983"
+       y1="122.85161"
+       x2="404.82983"
+       y2="161.47025"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3432"
+       id="linearGradient4089"
+       gradientUnits="userSpaceOnUse"
+       x1="400.99939"
+       y1="25.000505"
+       x2="400.99939"
+       y2="103.65441" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient4091"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3432"
+       id="linearGradient4095"
+       gradientUnits="userSpaceOnUse"
+       x1="400.99939"
+       y1="25.000505"
+       x2="400.99939"
+       y2="103.65441" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3432"
+       id="linearGradient3068"
+       gradientUnits="userSpaceOnUse"
+       x1="404.82983"
+       y1="122.85161"
+       x2="404.82983"
+       y2="161.47025"
+       gradientTransform="translate(-126.50932,271.66212)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient3850"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3432"
+       id="linearGradient3872"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-126.50932,271.66212)"
+       x1="404.82983"
+       y1="122.85161"
+       x2="404.82983"
+       y2="161.47025" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient3874"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3432"
+       id="linearGradient3869"
+       x1="201.17369"
+       y1="276.85626"
+       x2="315.17368"
+       y2="276.85626"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(18.682571,-535.02995)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient3882"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient3900"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient3912"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient3914"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient3093"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3860"
+       id="linearGradient3866"
+       x1="101.49842"
+       y1="192.07153"
+       x2="381.49842"
+       y2="192.07153"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3871"
+       id="linearGradient3877"
+       x1="102.49718"
+       y1="147.95041"
+       x2="256.49718"
+       y2="147.95041"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0065359,0,0,1.0285714,-0.67318416,-4.7271545)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient3112"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient3116"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient3122"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -190,17 +525,24 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="3.0037313"
-     inkscape:cx="192.96777"
-     inkscape:cy="803.5286"
+     inkscape:zoom="2.6031238"
+     inkscape:cx="376.40001"
+     inkscape:cy="1003.8263"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
      inkscape:window-width="1440"
      inkscape:window-height="776"
-     inkscape:window-x="0"
+     inkscape:window-x="-6"
      inkscape:window-y="0"
-     inkscape:window-maximized="0" />
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true">
+    <sodipodi:guide
+       orientation="0,1"
+       position="344.90435,1121.2721"
+       id="guide4061" />
+  </sodipodi:namedview>
   <metadata
      id="metadata7">
     <rdf:RDF>
@@ -341,12 +683,12 @@
          transform="matrix(1.3826806,0,0,0.99712085,61.245,55.108974)" />
     </g>
     <rect
-       style="fill:#ffffcb;fill-opacity:1;fill-rule:evenodd;stroke:#000080;stroke-width:1"
+       style="fill:url(#linearGradient3877);fill-opacity:1;fill-rule:evenodd;stroke:none"
        id="rect3907"
-       width="153"
-       height="35"
+       width="154"
+       height="36"
        x="102.99718"
-       y="130.45041"
+       y="129.45041"
        inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/img_display_154x36@2x.png"
        inkscape:export-xdpi="180"
        inkscape:export-ydpi="180"
@@ -355,15 +697,15 @@
     <rect
        ry="6.6583848"
        rx="6.6583853"
-       inkscape:export-ydpi="180"
-       inkscape:export-xdpi="180"
-       inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/img_hdisplay_280x21@2x.png"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/img_hdisplay_280x21.png"
        y="182.07153"
        x="101.99842"
        height="20"
        width="279"
        id="rect3943"
-       style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:1" />
+       style="fill:url(#linearGradient3866);fill-opacity:1;fill-rule:evenodd;stroke:#cccccc;stroke-width:1" />
     <g
        id="g3955"
        inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/btn_grey70_64x37.png"
@@ -392,7 +734,8 @@
        id="g3163"
        inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/logo_RPNCalc_App.png"
        inkscape:export-xdpi="45"
-       inkscape:export-ydpi="45">
+       inkscape:export-ydpi="45"
+       transform="translate(-64.106517,10.865511)">
       <rect
          ry="0"
          rx="0"
@@ -416,17 +759,285 @@
            id="tspan3145"
            x="158.58234"
            y="251.28166"
-           style="font-size:20px;font-style:italic;font-weight:bold;text-align:center;text-anchor:middle;fill:#ffffcb;-inkscape-font-specification:Arial Bold Italic;fill-opacity:1">My</tspan><tspan
+           style="font-size:20px;font-style:italic;font-weight:bold;text-align:center;text-anchor:middle;fill:#ffffcb;fill-opacity:1;-inkscape-font-specification:Arial Bold Italic">My</tspan><tspan
            id="tspan3149"
            sodipodi:role="line"
            x="158.58234"
            y="276.28165"
-           style="font-size:20px;font-style:italic;font-weight:bold;text-align:center;text-anchor:middle;fill:#ffffcb;-inkscape-font-specification:Arial Bold Italic;fill-opacity:1">RPN</tspan><tspan
+           style="font-size:20px;font-style:italic;font-weight:bold;text-align:center;text-anchor:middle;fill:#ffffcb;fill-opacity:1;-inkscape-font-specification:Arial Bold Italic">RPN</tspan><tspan
            id="tspan3147"
            sodipodi:role="line"
            x="158.58234"
            y="301.28165"
-           style="font-size:20px;font-style:italic;font-weight:bold;text-align:center;text-anchor:middle;fill:#ffffcb;-inkscape-font-specification:Arial Bold Italic;fill-opacity:1">Calculator</tspan></text>
+           style="font-size:20px;font-style:italic;font-weight:bold;text-align:center;text-anchor:middle;fill:#ffffcb;fill-opacity:1;-inkscape-font-specification:Arial Bold Italic">Calculator</tspan></text>
+    </g>
+    <g
+       id="g3807"
+       transform="translate(-2.663354,47.940373)">
+      <rect
+         style="fill:#9a027b;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="rect3031"
+         width="63.603306"
+         height="36.893471"
+         x="26.47974"
+         y="80.949478"
+         inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/bg_marineblue_1px.png"
+         inkscape:export-xdpi="1.9565217"
+         inkscape:export-ydpi="1.9565217"
+         rx="6.6583853"
+         ry="6.6583848" />
+      <path
+         transform="matrix(1.3826806,0,0,0.99712085,-14.660591,56.440651)"
+         style="fill:url(#linearGradient3811);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3807)"
+         d="m 37.333166,25.914946 c -3.48045,0 -6.28039,2.799938 -6.28039,6.280392 l 0,4.953549 c 4.10019,3.248476 12.28078,5.454801 21.70126,5.454801 9.44634,0 17.6123,-2.221208 21.70126,-5.484286 l 0,-4.924064 c 0,-3.480454 -2.79993,-6.280392 -6.28039,-6.280392 l -30.84174,0 z"
+         id="path3033"
+         inkscape:connector-curvature="0" />
+    </g>
+    <g
+       id="g3823">
+      <rect
+         ry="6.6583848"
+         rx="6.6583853"
+         inkscape:export-ydpi="1.9565217"
+         inkscape:export-xdpi="1.9565217"
+         inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/bg_marineblue_1px.png"
+         y="75.622772"
+         x="23.816385"
+         height="36.893471"
+         width="63.603306"
+         id="rect3815"
+         style="fill:#8800aa;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3817"
+         d="m 37.333166,25.914946 c -3.48045,0 -6.28039,2.799938 -6.28039,6.280392 l 0,4.953549 c 4.10019,3.248476 12.28078,5.454801 21.70126,5.454801 9.44634,0 17.6123,-2.221208 21.70126,-5.484286 l 0,-4.924064 c 0,-3.480454 -2.79993,-6.280392 -6.28039,-6.280392 l -30.84174,0 z"
+         style="fill:url(#linearGradient3819);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3807)"
+         transform="matrix(1.3826806,0,0,0.99712085,-17.323945,51.113942)" />
+    </g>
+    <g
+       id="g3838">
+      <rect
+         style="fill:#e6e6e6;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="rect3830"
+         width="63.603306"
+         height="36.893471"
+         x="274.51913"
+         y="126.18561"
+         inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/bg_marineblue_1px.png"
+         inkscape:export-xdpi="1.9565217"
+         inkscape:export-ydpi="1.9565217"
+         rx="6.6583853"
+         ry="6.6583848" />
+      <path
+         transform="matrix(1.3826806,0,0,0.99712085,233.37881,101.67679)"
+         style="fill:url(#linearGradient3834);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3807)"
+         d="m 37.333166,25.914946 c -3.48045,0 -6.28039,2.799938 -6.28039,6.280392 l 0,4.953549 c 4.10019,3.248476 12.28078,5.454801 21.70126,5.454801 9.44634,0 17.6123,-2.221208 21.70126,-5.484286 l 0,-4.924064 c 0,-3.480454 -2.79993,-6.280392 -6.28039,-6.280392 l -30.84174,0 z"
+         id="path3832"
+         inkscape:connector-curvature="0" />
+    </g>
+    <rect
+       transform="translate(-7.8571408,45.792529)"
+       style="fill:url(#linearGradient3910);fill-opacity:1;fill-rule:evenodd;stroke:none"
+       id="rect3132"
+       width="320"
+       height="460"
+       x="36.95528"
+       y="314.47772"
+       rx="6.6583853"
+       ry="0"
+       clip-path="url(#clipPath3908)"
+       inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/bg_golden_320x480.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g4097">
+      <rect
+         ry="6.6583848"
+         rx="6.6583853"
+         inkscape:export-ydpi="1.9565217"
+         inkscape:export-xdpi="1.9565217"
+         inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/bg_marineblue_1px.png"
+         y="25.375462"
+         x="373.03418"
+         height="81.814064"
+         width="62.248516"
+         id="rect4045"
+         style="fill:url(#linearGradient4095);fill-opacity:1;fill-rule:evenodd;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4047"
+         d="m 35.184751,26.366911 c -3.480326,-0.01513 -4.131975,2.347973 -4.131975,5.828427 l 0,4.953549 c 4.10019,3.248476 12.28078,5.454801 21.70126,5.454801 9.44634,0 17.6123,-2.221208 21.70126,-5.484286 l 0,-4.924064 c 0,-3.480454 -1.147305,-5.662642 -4.627641,-5.677777 z"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3807);opacity:0.4137931"
+         transform="matrix(1.3826806,0,0,1.4815597,331.21646,-11.737833)"
+         sodipodi:nodetypes="sscscsss" />
+    </g>
+    <g
+       id="g3868"
+       transform="matrix(0.99066138,0,0,0.97642151,127.53563,-261.02358)"
+       inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/btn_golden_64x37@2x.png"
+       inkscape:export-xdpi="179.94"
+       inkscape:export-ydpi="179.94">
+      <rect
+         ry="6.8191705"
+         rx="6.7211514"
+         inkscape:export-ydpi="1.9565217"
+         inkscape:export-xdpi="1.9565217"
+         inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/bg_marineblue_1px.png"
+         y="393.85269"
+         x="246.55391"
+         height="36.893471"
+         width="63.603306"
+         id="rect4069"
+         style="fill:url(#linearGradient3872);fill-opacity:1;fill-rule:evenodd;stroke:#666666;stroke-width:1.01676071" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path4071"
+         d="m 37.333166,25.914946 c -3.48045,0 -6.28039,2.799938 -6.28039,6.280392 l 0,4.953549 c 4.10019,3.248476 12.28078,5.454801 21.70126,5.454801 9.44634,0 17.6123,-2.221208 21.70126,-5.484286 l 0,-4.924064 c 0,-3.480454 -2.79993,-6.280392 -6.28039,-6.280392 l -30.84174,0 z"
+         style="opacity:0.71551723;fill:url(#linearGradient3874);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3807)"
+         transform="matrix(1.3826806,0,0,0.99712085,205.41359,369.34388)" />
+    </g>
+    <g
+       id="g3930"
+       inkscape:export-filename="/Users/arnobost/Developer/Calculator/logo_RPNCalc_App@2x.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         transform="matrix(0,1,-1,0,0,0)"
+         style="fill:url(#linearGradient3869);fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="rect3072"
+         width="114"
+         height="114"
+         x="219.85626"
+         y="-315.17371"
+         inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/bg_marineblue_1px.png"
+         inkscape:export-xdpi="1.9565217"
+         inkscape:export-ydpi="1.9565217"
+         rx="0"
+         ry="0" />
+      <g
+         transform="translate(123.32088,211.08166)"
+         id="g3876"
+         inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/btn_Black_64x37@2x.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180">
+        <rect
+           style="fill:#000000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+           id="rect3878"
+           width="63.603306"
+           height="36.893471"
+           x="103.05117"
+           y="24.020281"
+           inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/bg_marineblue_1px.png"
+           inkscape:export-xdpi="1.9565217"
+           inkscape:export-ydpi="1.9565217"
+           rx="6.6583853"
+           ry="6.6583848" />
+        <path
+           transform="matrix(1.3826806,0,0,0.99712085,61.910839,-0.48854177)"
+           style="fill:url(#linearGradient3912);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3807)"
+           d="m 37.333166,25.914946 c -3.48045,0 -6.28039,2.799938 -6.28039,6.280392 l 0,4.953549 c 4.10019,3.248476 12.28078,5.454801 21.70126,5.454801 9.44634,0 17.6123,-2.221208 21.70126,-5.484286 l 0,-4.924064 c 0,-3.480454 -2.79993,-6.280392 -6.28039,-6.280392 l -30.84174,0 z"
+           id="path3880"
+           inkscape:connector-curvature="0" />
+      </g>
+      <g
+         id="g3894"
+         transform="matrix(1,0,0,1.0270271,34.431444,256.15704)"
+         inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/btn_red_64x38@2x.png"
+         inkscape:export-xdpi="180"
+         inkscape:export-ydpi="180">
+        <rect
+           ry="6.4831638"
+           rx="6.6583853"
+           inkscape:export-ydpi="1.9565217"
+           inkscape:export-xdpi="1.9565217"
+           inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/bg_marineblue_1px.png"
+           y="24.020281"
+           x="191.94061"
+           height="36.893471"
+           width="63.603306"
+           id="rect3896"
+           style="fill:#ff0000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+        <path
+           inkscape:connector-curvature="0"
+           id="path3898"
+           d="m 37.333166,25.914946 c -3.48045,0 -6.28039,2.799938 -6.28039,6.280392 l 0,4.953549 c 4.10019,3.248476 12.28078,5.454801 21.70126,5.454801 9.44634,0 17.6123,-2.221208 21.70126,-5.484286 l 0,-4.924064 c 0,-3.480454 -2.79993,-6.280392 -6.28039,-6.280392 l -30.84174,0 z"
+           style="fill:url(#linearGradient3914);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3807)"
+           transform="matrix(1.3826806,0,0,0.99712085,150.80028,-0.48854177)" />
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text3922"
+         y="270.40558"
+         x="244.15808"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         xml:space="preserve"><tspan
+           style="font-size:48px;fill:#ffffff;stroke:#ffffff"
+           y="270.40558"
+           x="244.15808"
+           id="tspan3924"
+           sodipodi:role="line">+</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:60px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;writing-mode:lr-tb;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial"
+         x="244.15808"
+         y="316.62726"
+         id="text3926"
+         sodipodi:linespacing="125%"><tspan
+           sodipodi:role="line"
+           id="tspan3928"
+           x="244.15808"
+           y="316.62726"
+           style="font-size:48px;fill:#ffffff;stroke:#ffffff">=</tspan></text>
+    </g>
+    <g
+       id="g3097"
+       inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/btn_blue_64x37.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         ry="6.6583848"
+         rx="6.6583853"
+         inkscape:export-ydpi="1.9565217"
+         inkscape:export-xdpi="1.9565217"
+         inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/bg_marineblue_1px.png"
+         y="175.37247"
+         x="24.200541"
+         height="36.893471"
+         width="63.603306"
+         id="rect3089"
+         style="fill:#000080;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3091"
+         d="m 37.333166,25.914946 c -3.48045,0 -6.28039,2.799938 -6.28039,6.280392 l 0,4.953549 c 4.10019,3.248476 12.28078,5.454801 21.70126,5.454801 9.44634,0 17.6123,-2.221208 21.70126,-5.484286 l 0,-4.924064 c 0,-3.480454 -2.79993,-6.280392 -6.28039,-6.280392 l -30.84174,0 z"
+         style="fill:url(#linearGradient3093);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3807)"
+         transform="matrix(1.3826806,0,0,0.99712085,-16.939791,150.86364)" />
+    </g>
+    <g
+       id="g3118"
+       transform="matrix(1,0,0,0.98713657,0,1.8943807)"
+       inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/btn_green_64x124@2x.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <rect
+         ry="6.7451506"
+         rx="6.6583853"
+         inkscape:export-ydpi="1.9565217"
+         inkscape:export-xdpi="1.9565217"
+         inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/bg_marineblue_1px.png"
+         y="23.268757"
+         x="466.10364"
+         height="124"
+         width="64"
+         id="rect3108"
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:none" />
+      <path
+         inkscape:connector-curvature="0"
+         id="path3110"
+         d="m 35.184751,26.366911 c -3.480326,-0.01513 -4.131975,2.347973 -4.131975,5.828427 l 0,4.953549 c 4.10019,3.248476 12.28078,5.454801 21.70126,5.454801 9.44634,0 17.6123,-2.221208 21.70126,-5.484286 l 0,-4.924064 c 0,-3.480454 -1.147305,-5.662642 -4.627641,-5.677777 z"
+         style="fill:url(#linearGradient3122);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3807)"
+         transform="matrix(1.3826806,0,0,1.4815597,425.16166,-15.274448)"
+         sodipodi:nodetypes="sscscsss" />
     </g>
   </g>
 </svg>

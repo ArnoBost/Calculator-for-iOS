@@ -8,7 +8,7 @@ The Coding-together class is based on lectures [Developing Apps for iOS (CS193P)
 
 ## App features
 
-![image](http://www.arnobost.de/SiteImages/2012-07-09-CalcScreenshot-01.png)
+![image](http://www.arnobost.de/SiteImages/2012-07-10-CalcScreenshot-02.png)
 
 The requested features for the App are defined in the class's [Assignments 1 and 2](http://itunes.apple.com/us/course/coding-together-apps-for-iphone/id537447071#). There are mandatory and optional requests, that give extra credits in the "real world".
 
@@ -33,6 +33,7 @@ I've added these **features** in accordance with Assignment 1:
 
 **Additional features on my own:**
 
+* **tweaked buttons** to be more userfriendly (only in the view, history display remains unchanged).
 * new **logo images** for app.
 * new **golden background image** for the main calculator view.
 * new **1/x button** delivers functionality to calculate reversal numbers.

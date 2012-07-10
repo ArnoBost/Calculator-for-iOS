@@ -668,7 +668,10 @@
 - (void)clearCalculatorBrain
 {
     [self.programStack removeAllObjects];
-    [self.dictVariableValues removeAllObjects];
+    //[self.dictVariableValues removeAllObjects];
+    /* commented out, the as Clear should not remove the variable values.
+       http://piazza.com/class#summer2012/codingtogether/1151 
+    */
 }
 
 @end

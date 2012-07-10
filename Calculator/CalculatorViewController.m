@@ -217,6 +217,21 @@
     [self delIsResultIndicator];
     if (self.userIsInTheMiddleOfEnteringANumber) [self enterPressed];
     NSString *operation = sender.currentTitle;
+    
+    //Tweaking operation buttons without need to change of CalculatorBrain
+    //Conversion of new button text to the formerly simpler keyboard strokes.
+    //Side-Effect:
+    //The "older" symbols still get shown in history display, but this doesn't matter.
+    
+    if ([operation isEqualToString:@"÷"]) {
+        operation = @"/";
+    } else if ([operation isEqualToString:@"×"]) {
+        operation = @"*";
+    } else  if ([operation isEqualToString:@"±"]) {
+        operation = @"+/-";
+    } else if ([operation isEqualToString:@"−"]) {
+        operation = @"-";
+    } 
 
     id resultObject = [self.brain performOperation:operation];
     self.historyDisplay.text = [CalculatorBrain descriptionOfProgram:self.brain.program];

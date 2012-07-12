@@ -266,21 +266,32 @@
 }
 
 - (IBAction)setVariableValuesPressed:(UIButton *)sender {
-    NSArray *myVariableNames = [NSArray arrayWithObjects:@"x", @"a", @"b", nil];
-    NSArray *only2VariableNames = [NSArray arrayWithObjects:@"x", @"a", nil];
-    NSArray *myVariableNumbers;
     NSDictionary *myVariables;
 
-    if ([sender.currentTitle isEqualToString:@"Test 1"]) {
-        myVariableNumbers = [NSArray arrayWithObjects:[NSNumber numberWithInt:1], [NSNumber numberWithInt:3], [NSNumber numberWithInt:2], nil];
-        myVariables = [NSDictionary dictionaryWithObjects:myVariableNumbers forKeys:myVariableNames];
-    } else if ([sender.currentTitle isEqualToString:@"Test 2"]) {
-        myVariableNumbers = [NSArray arrayWithObjects:[NSNumber numberWithDouble:0.5], [NSNumber numberWithDouble:4.5], [NSNumber numberWithInt:3], nil];
-        myVariables = [NSDictionary dictionaryWithObjects:myVariableNumbers forKeys:myVariableNames];
-    } else if ([sender.currentTitle isEqualToString:@"Test 3"]) {
-        myVariableNumbers = [NSArray arrayWithObjects:[NSNumber numberWithDouble:0.0], [NSNumber numberWithInt:5], nil];
-        myVariables = [NSDictionary dictionaryWithObjects:myVariableNumbers forKeys:only2VariableNames];
-    }
+    /* tweaked to a more elegant source code with thanks to Tawheed Abdul-Raheem
+        http://piazza.com/class#summer2012/codingtogether/1176
+     
+        TWEAK BEGIN*/
+    
+    if ([sender.currentTitle isEqualToString:@"Test 1"]){
+        //we want to set this dictionary values to something in the model
+        
+        myVariables = [NSDictionary dictionaryWithObjectsAndKeys: 
+                       [NSNumber numberWithDouble:1.0],@"x", 
+                       [NSNumber numberWithDouble:3.0],@"a", 
+                       [NSNumber numberWithDouble:2.0],@"b", nil];
+    } else if ([sender.currentTitle isEqualToString:@"Test 2"]){
+        myVariables = [NSDictionary dictionaryWithObjectsAndKeys: 
+                       [NSNumber numberWithDouble:0.5],@"x", 
+                       [NSNumber numberWithDouble:4.5],@"a", 
+                       [NSNumber numberWithDouble:3],@"b", nil];
+    } else if ([sender.currentTitle isEqualToString:@"Test 3"]){
+        myVariables = [NSDictionary dictionaryWithObjectsAndKeys: 
+                       [NSNumber numberWithDouble:0.0],@"x", 
+                       [NSNumber numberWithDouble:5.0],@"a", nil];
+    };
+    
+    // TWEAK END;
    
     [self.brain setVariableValues:myVariables];
     [self updateUsedVariablesDisplay];

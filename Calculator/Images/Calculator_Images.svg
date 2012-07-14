@@ -517,6 +517,15 @@
        y1="22.274221"
        x2="55.145981"
        y2="59.22826" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient3783"
+       id="linearGradient3118"
+       gradientUnits="userSpaceOnUse"
+       x1="54.357124"
+       y1="22.274221"
+       x2="55.145981"
+       y2="59.22826" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -525,9 +534,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="2.6031238"
+     inkscape:zoom="1.3015619"
      inkscape:cx="376.40001"
-     inkscape:cy="1003.8263"
+     inkscape:cy="850.16476"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -1038,6 +1047,30 @@
          style="fill:url(#linearGradient3122);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3807)"
          transform="matrix(1.3826806,0,0,1.4815597,425.16166,-15.274448)"
          sodipodi:nodetypes="sscscsss" />
+    </g>
+    <g
+       id="g3122"
+       inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/btn_green_64x37@2x.png"
+       inkscape:export-xdpi="180"
+       inkscape:export-ydpi="180">
+      <rect
+         style="fill:#008000;fill-opacity:1;fill-rule:evenodd;stroke:none"
+         id="rect3114"
+         width="63.603306"
+         height="36.893471"
+         x="465.79486"
+         y="164.89995"
+         inkscape:export-filename="/Users/arnobost/Developer/Calculator/Calculator/Images/bg_marineblue_1px.png"
+         inkscape:export-xdpi="1.9565217"
+         inkscape:export-ydpi="1.9565217"
+         rx="6.6583853"
+         ry="6.6583848" />
+      <path
+         transform="matrix(1.3826806,0,0,0.99712085,424.65453,140.39113)"
+         style="fill:url(#linearGradient3118);fill-opacity:1;fill-rule:evenodd;stroke:none;filter:url(#filter3807)"
+         d="m 37.333166,25.914946 c -3.48045,0 -6.28039,2.799938 -6.28039,6.280392 l 0,4.953549 c 4.10019,3.248476 12.28078,5.454801 21.70126,5.454801 9.44634,0 17.6123,-2.221208 21.70126,-5.484286 l 0,-4.924064 c 0,-3.480454 -2.79993,-6.280392 -6.28039,-6.280392 l -30.84174,0 z"
+         id="path3116"
+         inkscape:connector-curvature="0" />
     </g>
   </g>
 </svg>

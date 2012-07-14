@@ -9,6 +9,7 @@ The Coding-together class is based on lectures [Developing Apps for iOS (CS193P)
 ## App features
 
 ![image](http://www.arnobost.de/SiteImages/2012-07-10-CalcScreenshot-02.png)
+![image](http://www.arnobost.de/SiteImages/2012-07-14-CalcScreenshot-03.png)
 
 The requested features for the App are defined in the class's [Assignments 1 and 2](http://itunes.apple.com/us/course/coding-together-apps-for-iphone/id537447071#). There are mandatory and optional requests, that give extra credits in the "real world".
 
@@ -38,6 +39,7 @@ I've added these **features** in accordance with Assignment 1:
 * new **golden background image** for the main calculator view.
 * new **1/x button** delivers functionality to calculate reversal numbers.
 * enhanced **error handling** by displaying a smiley in the history label, when an operand was missed by the last operation (instead of the formerly "0" in this situation).
+* major feature: **support for device rotation** is added including a new view for landscape mode, done by major improvements in Storyboard and CalculatorView.m.
 
 
 ## Features for Assignment 1 (RPN-Calculator)

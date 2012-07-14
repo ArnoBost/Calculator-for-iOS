@@ -13,8 +13,11 @@
 @property (nonatomic) BOOL userIsInTheMiddleOfEnteringANumber;
 @property (nonatomic) BOOL userSelectedMinusBeforeEnteringADigit;
 @property (nonatomic, strong) CalculatorBrain *brain;
+@property (nonatomic) id callerPortraitView;
 
 - (void)updateUsedVariablesDisplay;
++ (void)setCalculatorBrainAndState:(CalculatorViewController *)destinationViewController calculatorBrain:(id)brain isInTheMiddleOfEnteringANumber:(BOOL)stateEntering selectedMinusBeforeEnteringADigit:(BOOL)stateMinus startDisplayString:(NSString *)startDisplay;
+
 @end
 
 @implementation CalculatorViewController
@@ -25,7 +28,27 @@
 @synthesize userIsInTheMiddleOfEnteringANumber = _userIsInTheMiddleOfEnteringANumber;
 @synthesize userSelectedMinusBeforeEnteringADigit = _userSelectedMinusBeforeEnteringADigit;
 @synthesize brain = _brain;
+@synthesize startDisplayString = _startDisplayString;
+@synthesize callerPortraitView = _callerPortraitView;
 
+- (NSString *)getstartDisplayString;
+{
+    if (!_startDisplayString) _startDisplayString = @"";
+    return _startDisplayString;
+}
+
+- (void)viewDidLoad
+{
+    self.historyDisplay.text = [CalculatorBrain descriptionOfProgram:self.brain.program];
+    [self updateUsedVariablesDisplay];
+    [self secureSetDisplayText:self.startDisplayString];
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [self viewDidLoad];
+    [super viewWillAppear:animated];
+}
 
 - (void)updateUsedVariablesDisplay
 {
@@ -59,7 +82,6 @@
     BOOL stateMinus = NO;   //change to YES at the 1st occurance of "-"
     BOOL stateDecimal = NO; //change to YES at the 1st occurance of period
     BOOL stateFreeShotforZeroAllowed = NO; //change to YES at period or 1st occurance of digit >=1
-    BOOL stateDigit = NO;   //change to YES at the 1st occurance of a digit
     BOOL stateExponential = NO; //change to YES at 1st occurance of "e"
     NSString *curCharString = @"";
     NSString *prevCharString = @"";
@@ -103,7 +125,6 @@
                         workDisplayString = [workDisplayString stringByAppendingString:@"0."];
                     } else {
                         workDisplayString = [workDisplayString stringByAppendingString:@"."];
-                        stateDigit = YES;
                     }
                     stateDecimal = YES;
                     stateFreeShotforZeroAllowed = YES;
@@ -127,7 +148,6 @@
                     }
                 }
                 
-                stateDigit = YES;
                 if ([curCharString isEqualToString:@"e"]) {
                     stateExponential = YES;
                     stateFreeShotforZeroAllowed = YES;
@@ -144,7 +164,7 @@
     //assign to display.text
     
     self.display.text = workDisplayString;
-    
+        
     //correct state information
     
     if ([workDisplayString isEqualToString:@"0"]) {
@@ -273,19 +293,21 @@
      
         TWEAK BEGIN*/
     
-    if ([sender.currentTitle isEqualToString:@"Test 1"]){
-        //we want to set this dictionary values to something in the model
-        
+    //we want to set this dictionary values to something in the model
+    if (([sender.currentTitle isEqualToString:@"Test 1"]) ||    //portrait orientation view
+        ([sender.currentTitle isEqualToString:@"T 1"])){        //landscape orienation view
         myVariables = [NSDictionary dictionaryWithObjectsAndKeys: 
                        [NSNumber numberWithDouble:1.0],@"x", 
                        [NSNumber numberWithDouble:3.0],@"a", 
                        [NSNumber numberWithDouble:2.0],@"b", nil];
-    } else if ([sender.currentTitle isEqualToString:@"Test 2"]){
+    } else if (([sender.currentTitle isEqualToString:@"Test 2"]) ||
+               ([sender.currentTitle isEqualToString:@"T 2"])){
         myVariables = [NSDictionary dictionaryWithObjectsAndKeys: 
                        [NSNumber numberWithDouble:0.5],@"x", 
                        [NSNumber numberWithDouble:4.5],@"a", 
                        [NSNumber numberWithDouble:3],@"b", nil];
-    } else if ([sender.currentTitle isEqualToString:@"Test 3"]){
+    } else if (([sender.currentTitle isEqualToString:@"Test 3"])||
+               ([sender.currentTitle isEqualToString:@"T 3"])){
         myVariables = [NSDictionary dictionaryWithObjectsAndKeys: 
                        [NSNumber numberWithDouble:0.0],@"x", 
                        [NSNumber numberWithDouble:5.0],@"a", nil];
@@ -394,10 +416,40 @@
     self.userSelectedMinusBeforeEnteringADigit = [[self.display.text substringToIndex:1] isEqualToString:@"-"];
 }
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation {
+    return YES;
+}
 
-- (void)viewDidLoad {
-    self.historyDisplay.text = @"";
-    self.variableValuesDisplay.text = @"";
++ (void)setCalculatorBrainAndState:(CalculatorViewController *)destinationViewController calculatorBrain:(id)brain isInTheMiddleOfEnteringANumber:(BOOL)stateEntering selectedMinusBeforeEnteringADigit:(BOOL)stateMinus startDisplayString:(NSString *)startDisplay
+{
+    if (destinationViewController) {
+        if (brain) destinationViewController.brain = brain;
+        destinationViewController.userIsInTheMiddleOfEnteringANumber = stateEntering;
+        destinationViewController.userSelectedMinusBeforeEnteringADigit = stateMinus;
+        destinationViewController.startDisplayString = startDisplay;
+    }
+}
+
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    if ([segue.identifier isEqualToString:@"showLandscape"]) {
+        CalculatorViewController *newController = segue.destinationViewController;
+        [CalculatorViewController setCalculatorBrainAndState:newController calculatorBrain:self.brain isInTheMiddleOfEnteringANumber:self.userIsInTheMiddleOfEnteringANumber selectedMinusBeforeEnteringADigit:self.userSelectedMinusBeforeEnteringADigit startDisplayString:self.display.text];
+        newController.callerPortraitView = self;
+    }
+}
+
+- (void)willRotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation duration:(NSTimeInterval)duration
+{
+    if ((toInterfaceOrientation == UIInterfaceOrientationLandscapeLeft) ||
+        (toInterfaceOrientation == UIInterfaceOrientationLandscapeRight)) {
+        NSLog(@"Querformat");
+        [self performSegueWithIdentifier:@"showLandscape" sender:self];
+    } else {
+        NSLog(@"Hochformat");
+        [CalculatorViewController setCalculatorBrainAndState:self.callerPortraitView calculatorBrain:self.brain isInTheMiddleOfEnteringANumber:self.userIsInTheMiddleOfEnteringANumber selectedMinusBeforeEnteringADigit:self.userSelectedMinusBeforeEnteringADigit startDisplayString:self.display.text];
+        [self.navigationController popViewControllerAnimated:YES];
+    }
+
 }
 
 @end

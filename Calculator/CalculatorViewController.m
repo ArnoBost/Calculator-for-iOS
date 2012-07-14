@@ -443,7 +443,10 @@
     if ((toInterfaceOrientation == UIInterfaceOrientationLandscapeLeft) ||
         (toInterfaceOrientation == UIInterfaceOrientationLandscapeRight)) {
         NSLog(@"Querformat");
-        [self performSegueWithIdentifier:@"showLandscape" sender:self];
+        if ((self.interfaceOrientation == UIInterfaceOrientationPortrait) ||
+            (self.interfaceOrientation == UIInterfaceOrientationPortraitUpsideDown)) {
+            [self performSegueWithIdentifier:@"showLandscape" sender:self];
+        }
     } else {
         NSLog(@"Hochformat");
         [CalculatorViewController setCalculatorBrainAndState:self.callerPortraitView calculatorBrain:self.brain isInTheMiddleOfEnteringANumber:self.userIsInTheMiddleOfEnteringANumber selectedMinusBeforeEnteringADigit:self.userSelectedMinusBeforeEnteringADigit startDisplayString:self.display.text];

@@ -420,6 +420,7 @@
     Thesis: 
     Parentheses around a child operation must be set, when the priority of the parent operator is higher than
     the priority of the child operator.
+    Exception: "-"-Operator, Example: 3-(2-1) needs parentheses when both priorities are equal.
 */
 {
     int nrOfOperands;
@@ -434,9 +435,6 @@
             result = 7;
         }
     } else if (nrOfOperands == 2) {
-        //NSSet *prio2Operators = [[NSSet alloc] initWithObjects:@"*", @"/", nil];
-        //NSSet *prio1Operators = [[NSSet alloc] initWithObjects:@"+", @"-", nil];
-
         if ([anOperandString isEqualToString:@"/"]) {
             result = 5;
         } else if ([anOperandString isEqualToString:@"*"]) {
@@ -531,6 +529,13 @@
                     formatHelpStringOpen = @"(";
                     formatHelpStringClose = @")";
                 } 
+                
+                myDescription = (NSString *)topOfStack;
+                if ([myDescription isEqualToString:@"-"] &&
+                    (ownPriority == callerPriority)) {
+                    formatHelpStringOpen = @"(";
+                    formatHelpStringClose = @")";
+                }
                 
                 if (numberOfOperands == 1) {
                     operand1 = [self descriptionOfProgramArray:stack priorityOfCaller:ownPriority];
